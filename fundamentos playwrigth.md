@@ -247,8 +247,8 @@ test("should be able to filter tasks by status", async ({ page }) => {
   await page.getByTestId("filter-pending").click();
   await expect(page.get
 (Content truncated due to size limit. Use line ranges to read in chunks)
+```
 
-# Salvar o conteúdo em um arquivo .md
 
 # Fundamentos: Condicionais e Estruturas de Repetição
 
@@ -265,6 +265,7 @@ if (idade >= 18) {
 } else {
     console.log('Menor de idade');
 }
+```
 
 Exemplo com else if:
 
@@ -277,6 +278,7 @@ if (nota >= 90) {
 } else {
     console.log('Precisa melhorar');
 }
+```
 
 ### Laços de Repetição com for
 A estrutura for permite executar repetidamente um bloco de código enquanto uma condição for verdadeira.
@@ -287,6 +289,7 @@ Exemplo de laço de 0 a 4:
 for (let i = 0; i < 5; i++) {
     console.log(`Contador: ${i}`);
 }
+```
 
 ### Iterando sobre um array:
 
@@ -295,6 +298,7 @@ const frutas = ['maçã', 'banana', 'laranja'];
 for (let i = 0; i < frutas.length; i++) {
     console.log(frutas[i]);
 }
+```
 
 ### Combinação: for + if
 
@@ -310,6 +314,7 @@ for (let numero of numeros) {
         console.log(`${numero} é par`);
     }
 }
+```
 
 ### Condicional envolvendo for
 Também é possível condicionar a execução de um for com base em uma decisão anterior:
@@ -324,3 +329,4 @@ if (deveExecutar) {
 } else {
     console.log('Execução cancelada');
 }
+```
